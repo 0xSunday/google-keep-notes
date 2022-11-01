@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 64px;
+  border-bottom: 1px solid rgba(228, 189, 189, 0.43);
+  box-shadow: 0px 13px 11px -20px #111;
+  z-index: 100;
+  background-color: white;
+
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  color: rgb(116, 120, 124);
+  background-color: white;
+}
+.nav-left {
+  width: 170px;
+  padding-left: 10px;
+}
+h1 {
+  font-size: 22px;
+  margin-left: -8px;
+  font-weight: normal;
+  color: rgb(85, 87, 92);
+}
+
+.nav-middle {
+  flex: 1;
+  margin: 0 5px 0 55px;
+  display: flex;
+  align-items: center;
+}
+.nav-right {
+  width: 270px;
+  padding-right: 10px;
+}
+
+.logo {
+  height: 40px;
+}
+.profile {
+  height: 35px;
+  border-radius: 100%;
+}
+.search-icon {
+  font-size: 24px;
+  background-color: RGB(241, 243, 244);
+  padding: 12px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.search {
+  height: 30px;
+  flex: 1;
+  padding: 9px 0;
+  border: none;
+  margin-left: -1px;
+  background-color: RGB(241, 243, 244);
+  max-width: 600px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Left side options */
+.options {
+  display: flex;
+  background-color: white;
+}
+.icon-position {
+  display: flex;
+  align-items: center;
+
+  font-size: 0.6rem;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  line-height: 1.7rem;
+}
+
+.icon {
+  font-size: 1.3rem;
+  padding: 0 25px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 65px;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  padding-top: 7px;
+  color: RGB(32, 33, 36);
+}
+footer {
+  justify-content: center;
+  margin-top: auto;
+  padding-left: 35px;
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+  color: RGB(134, 122, 133);
+}
+/* middle section */
+.main {
+  margin: 70px 0 0 300px;
+  height: 100vh;
+}
+.note-flex {
+  display: flex;
+
+  justify-content: center;
+}
+.note {
+  display: flex;
+  flex-direction: column;
+  width: 91%;
+  max-width: 550px;
+  margin: 30px 0 20px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+}
+.input-title::placeholder {
+  font-size: 1.1rem;
+}
+.input-title,
+.input-description {
+  height: 45px;
+  padding: 5px;
+  border: none;
+}
+.input-title:focus,
+.input-description:focus {
+  outline: none;
+}
+.note-options {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+}
+.note-ions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+.note-options-close {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  padding-right: 10px;
+  align-items: center;
+}
+.GrAddCircle-div{
+  display: flex;
+align-items: flex-end;
+justify-content: end;
+font-size: 2rem;
+}
+.GrAddCircle{
+position: absolute;
+margin: -13px 0 0 0;
+padding-right: 19px;
+}
